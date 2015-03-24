@@ -1,6 +1,6 @@
 # karma-phantomjs-shim
 
-Provides Function.prototype.bind when running tests in PhantomJS
+Provides `Function.prototype.bind` when running tests in PhantomJS 1.x.
 
 ## Use
 
