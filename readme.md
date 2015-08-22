@@ -1,6 +1,6 @@
 # karma-phantomjs-shim
 
-Provides `Function.prototype.bind` when running tests in PhantomJS 1.x.
+Provides shims when running tests in PhantomJS 1.x.
 
 ## Use
 
@@ -18,3 +18,10 @@ module.exports = function(config) {
   });
 };
 ```
+## Shims
+
+ * `Function.prototype.bind`
+ * `requestAnimationFrame`
+ * `CustomEvent`
+
+Want more?  [Pull requests welcome!](https://github.com/tschaub/karma-phantomjs-shim)

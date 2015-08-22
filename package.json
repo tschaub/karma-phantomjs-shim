@@ -1,7 +1,7 @@
 {
   "name": "karma-phantomjs-shim",
   "version": "1.1.0",
-  "description": "Provides Function.prototype.bind for PhantomJS",
+  "description": "Provides shims for PhantomJS",
   "main": "index.js",
   "homepage": "https://github.com/tschaub/karma-phantomjs-shim",
   "author": {
@@ -21,10 +21,5 @@
   "bugs": {
     "url": "https://github.com/tschaub/karma-phantomjs-shim/issues"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://tschaub.mit-license.org/"
-    }
-  ]
+  "license": "MIT"
 }
