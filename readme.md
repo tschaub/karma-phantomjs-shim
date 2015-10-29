@@ -18,6 +18,19 @@ module.exports = function(config) {
   });
 };
 ```
+
+If you've defined the plugins section in your Karma config file you'll also need to add a `karma-phantomjs-shim` entry to your plugins array:
+
+```js
+module.exports = function(config) {
+  config.set({
+    // [...]
+    plugins: ['karma-phantomjs-shim']
+    // [...]
+  });
+};
+```
+
 ## Shims
 
  * `Function.prototype.bind`
