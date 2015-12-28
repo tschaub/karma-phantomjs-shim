@@ -102,3 +102,16 @@
 
   window.CustomEvent = CustomEvent;
 })();
+
+/*
+ * Polyfill for String.startsWith
+ * https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith
+ */
+(function() {
+  if (!String.prototype.startsWith) {
+  String.prototype.startsWith = function(searchString, position) {
+      position = position || 0;
+      return this.indexOf(searchString, position) === position;
+    };
+  }
+})();
