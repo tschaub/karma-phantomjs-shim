@@ -33,8 +33,9 @@ module.exports = function(config) {
 
 ## Shims
 
- * `Function.prototype.bind`
- * `requestAnimationFrame`
  * `CustomEvent`
+ * `Function.prototype.bind`
+ * `String.prototype.startsWith`
+ * `requestAnimationFrame`
 
 Want more?  [Pull requests welcome!](https://github.com/tschaub/karma-phantomjs-shim)
