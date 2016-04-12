@@ -12,7 +12,7 @@
     "karma-plugin",
     "karma-framework",
     "phantomjs",
-    "bind"
+    "shim"
   ],
   "repository": {
     "type": "git",
