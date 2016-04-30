@@ -86,7 +86,7 @@
     };
 }());
 
-/*
+/**
  * Polyfill for CustomEvent
  * Until PhantomJS v2.0 is out (see https://github.com/ariya/phantomjs/issues/11289)
  */
@@ -103,9 +103,9 @@
   window.CustomEvent = CustomEvent;
 })();
 
-/*
+/**
  * Polyfill for String.startsWith
- * https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith
+ * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith
  */
 (function() {
   if (!String.prototype.startsWith) {
@@ -164,6 +164,27 @@ if (!String.prototype.repeat) {
     return rpt;
   }
 }})();
+
+/**
+ * Polyfill for String.includes
+ * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes
+ */
+(function() {
+  if (!String.prototype.includes) {
+    String.prototype.includes = function(search, start) {
+      'use strict';
+      if (typeof start !== 'number') {
+        start = 0;
+      }
+
+      if (start + search.length > this.length) {
+        return false;
+      } else {
+        return this.indexOf(search, start) !== -1;
+      }
+    };
+  }
+})();
 
 /**
  * Polyfill for Object.assign
