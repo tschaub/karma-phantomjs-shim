@@ -36,6 +36,8 @@ module.exports = function(config) {
  * `CustomEvent`
  * `Function.prototype.bind`
  * `Object.assign`
+ * `String.prototype.includes`
+ * `String.prototype.repeat`
  * `String.prototype.startsWith`
  * `requestAnimationFrame`
 
