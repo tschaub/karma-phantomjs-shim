@@ -1,6 +1,6 @@
 {
   "name": "karma-phantomjs-shim",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Provides shims for PhantomJS",
   "main": "index.js",
   "homepage": "https://github.com/tschaub/karma-phantomjs-shim",
