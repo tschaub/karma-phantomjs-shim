@@ -1,5 +1,7 @@
 # karma-phantomjs-shim
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tschaub/karma-phantomjs-shim.svg)](https://greenkeeper.io/)
+
 Provides shims when running tests in PhantomJS.
 
 ## Use
