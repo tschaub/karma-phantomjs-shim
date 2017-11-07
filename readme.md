@@ -40,5 +40,6 @@ module.exports = function(config) {
  * `String.prototype.repeat`
  * `String.prototype.startsWith`
  * `requestAnimationFrame`
+ * `Array.prototype.find`
 
 Want more?  [Pull requests welcome!](https://github.com/tschaub/karma-phantomjs-shim)
